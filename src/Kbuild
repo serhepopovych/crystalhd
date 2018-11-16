@@ -1,0 +1,4 @@
+
+# kbuild part of makefile
+obj-m := crystalhd.o
+crystalhd-y := crystalhd_cmds.o crystalhd_hw.o crystalhd_lnx.o crystalhd_misc.o
