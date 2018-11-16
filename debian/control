@@ -1,0 +1,22 @@
+Source: crystalhd
+Section: kernel
+Priority: extra
+Maintainer: Serhey Popovych <serhe.popovych@gmail.com>
+Build-Depends: debhelper (>= 9), dkms
+Standards-Version: 0.9.27
+Homepage: https://github.com/serhepopovych/crystalhd
+Vcs-Git: https://github.com/serhepopovych/crystalhd.git
+Vcs-Browser: https://github.com/serhepopovych/crystalhd
+
+Package: crystalhd-dkms
+Architecture: all
+Depends: ${misc:Depends}
+Description: dkms source for Broadcom Crystal HD video decoder driver
+ This is Broadcom Crystal HD video decoder reborn from upstream crystalhd driver.
+ .
+ Installation of the crystalhd-dkms package will disable the in-kernel crystalhd
+ module if it present (for kernels before v3.17-rc1). To re-enable them, the
+ crystalhd-dkms package must be purged.
+ .
+ This package provides the dkms source code for the crystalhd kernel module.
+ Kernel source or headers are required to compile these modules.
