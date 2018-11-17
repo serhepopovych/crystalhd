@@ -11,6 +11,10 @@ Files: debian/*
 Copyright: © 2018 Serhey Popovych <serhe.popovych@gmail.com>
 License: GPL-2.0+
 
+Files: rpm/*
+Copyright: © 2018 Serhey Popovych <serhe.popovych@gmail.com>
+License: GPL-2.0+
+
 License: GPL-2
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License version 2
